@@ -1,0 +1,16 @@
+#ignore all 
+*
+#except files
+!*.yaml
+!*.yml
+!.gitignore
+!*.py 
+!*.env
+!*.ipynb
+
+#except subfolders
+!notebooks
+!notebooks/datasets
+
+#Ignore specific file
+notebooks/Debug.ipynb
